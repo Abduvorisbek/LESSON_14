@@ -1,0 +1,66 @@
+#main {
+  background-color: black;
+}
+.new-era {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.nelogo span {
+  font-size: 1.2rem;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57b8ff;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.ne2,
+.ne3 {
+  max-width: 580px;
+  margin-top: 40px;
+}
+.netext {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.ne3 p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 30px;
+  color: rgba(223, 223, 223, 0.8);
+}
+.era-but button {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding: 20px 30px;
+  background-color: black;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.era-but button:hover {
+  background-color: #57b8ff;
+}
+.era-right {
+  margin-left: 40px;
+}
+@media (max-width: 1000px) {
+  .new-era {
+    flex-direction: column;
+  }
+  .new-era div {
+    max-width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .eras {
+    height: 100px;
+    padding: 0px;
+    margin: 0px auto;
+    padding-right: 5px ;
+  }
+}
